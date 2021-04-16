@@ -82,8 +82,9 @@ dependencies {
 
     // coroutines
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$versions.coroutines"
-    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$versions.coroutines"
-    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:$versions.coroutines"
+/**    //coroutines test
+*    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$versions.coroutines"
+*    testImplementation "org.jetbrains.kotlinx:kotlinx-coroutines-test:$versions.coroutines"*/
 
     // extensions
     implementation (
@@ -100,9 +101,9 @@ dependencies {
     // animations
     implementation "com.github.skydoves:transformationlayout:$versions.transformation_layout"
 
-    // unit test
-    testImplementation "junit:junit:$versions.junit"
-    androidTestImplementation "androidx.test.ext:junit:$versions.androidx_junit"
-    androidTestImplementation "androidx.test.espresso:espresso-core:$versions.androidx_espresso"
+/**    // unit test
+*    testImplementation "junit:junit:$versions.junit"
+*    androidTestImplementation "androidx.test.ext:junit:$versions.androidx_junit"
+*    androidTestImplementation "androidx.test.espresso:espresso-core:$versions.androidx_espresso"*/
 
 }

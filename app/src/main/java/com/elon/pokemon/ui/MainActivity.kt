@@ -1,8 +1,8 @@
-package com.elon.pokemon
+package com.elon.pokemon.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import dagger.hilt.android.HiltAndroidApp
+import com.elon.pokemon.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
